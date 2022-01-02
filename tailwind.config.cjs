@@ -1,8 +1,14 @@
+const colors = require("tailwindcss/colors");
+
 const config = {
 	content: ["./src/**/*.{html,js,svelte,ts}"],
 
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				theme: colors.blue,
+			},
+		},
 	},
 
 	plugins: [require("@tailwindcss/typography")],

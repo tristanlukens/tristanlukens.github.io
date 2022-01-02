@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-da3ed870.css">
+		<link rel="modulepreload" href="/_app/start-9278b01a.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-a7db36b2.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-06564063.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-54a0eb19.js">
+
+		<script type="module">
+			import { start } from "/_app/start-9278b01a.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-06564063.js"),
+						import("/_app/pages/index.svelte-54a0eb19.js")
+					],
+					url: new URL("sveltekit://prerender/"),
+					params: {}
+				}
+			});
+		</script><script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/service-worker.js');
+			}
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+
+
+</div>
+	</body>
+</html>

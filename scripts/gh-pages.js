@@ -1,6 +1,6 @@
-var ghpages = require("gh-pages");
+import { publish } from "gh-pages";
 
-ghpages.publish(
+publish(
 	"build",
 	{
 		branch: "gh-pages",

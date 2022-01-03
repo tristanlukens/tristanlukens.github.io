@@ -9,7 +9,7 @@
 
 <div
 	transition:slide
-	class="bg-white shadow-2xl p-4 space-y-4 text-center h-full"
+	class="bg-white shadow-2xl p-4 space-y-4 text-center h-screen"
 >
 	<p>Where do you want to go?</p>
 	<hr />

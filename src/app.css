@@ -1,4 +1,9 @@
-/* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.link {
+		@apply underline text-theme-500 text-sm uppercase tracking-widest font-bold;
+	}
+}

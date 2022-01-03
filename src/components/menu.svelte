@@ -13,7 +13,7 @@
 >
 	<p>Where do you want to go?</p>
 	<hr />
-	<Nav />
+	<Nav {toggleMenu} />
 	<hr />
 	<!-- https://feathericons.com/?query=x with edited stroke width -->
 	<svg

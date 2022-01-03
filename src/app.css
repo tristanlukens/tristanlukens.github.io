@@ -4,6 +4,6 @@
 
 @layer components {
 	.link {
-		@apply underline text-theme-500 text-sm uppercase tracking-widest font-bold;
+		@apply text-theme-500 text-sm uppercase tracking-widest font-bold;
 	}
 }

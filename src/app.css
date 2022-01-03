@@ -7,3 +7,9 @@
 		@apply text-theme-500 text-sm uppercase tracking-widest font-bold;
 	}
 }
+
+@layer utilities {
+	.height-normal {
+		height: calc(100vh - theme("spacing.14"));
+	}
+}

@@ -9,7 +9,7 @@
 </script>
 
 <header
-	class="border-b-2 border-gray-100 flex justify-around items-center py-2"
+	class="border-b-2 border-gray-100 flex justify-around items-center h-14"
 >
 	<a href="/">
 		<h1 class="text-3xl font-bold">

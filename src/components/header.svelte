@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Menu from "./menu.svelte";
+	import Nav from "./nav.svelte";
+
 	import { menuOpen } from "../stores.js";
 	const toggleMenu = () => {
 		$menuOpen = !$menuOpen;
@@ -36,6 +38,10 @@
 				y2="6"
 			/><line x1="3" y1="18" x2="21" y2="18" /></svg
 		>
+	</div>
+
+	<div class="hidden sm:block">
+		<Nav />
 	</div>
 
 	{#if $menuOpen}

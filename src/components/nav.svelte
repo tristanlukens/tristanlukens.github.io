@@ -9,7 +9,9 @@
 </script>
 
 <nav>
-	<ul class="flex flex-col sm:flex-row items-center gap-4 sm:space-between">
+	<ul
+		class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 justify-center sm:space-between"
+	>
 		{#each navItems as item}
 			<li>
 				<a on:click={toggleMenu} class="link" href="/{item}">{item}</a>

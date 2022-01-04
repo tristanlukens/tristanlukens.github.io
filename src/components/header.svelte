@@ -12,9 +12,9 @@
 	class="border-b-2 border-gray-100 flex justify-around items-center h-14"
 >
 	<a href="/">
-		<h1 class="text-3xl font-bold">
+		<h2 class="text-3xl font-bold">
 			tristan<span class="text-theme-400">lukens</span>
-		</h1>
+		</h2>
 	</a>
 
 	<div class="sm:hidden">

@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>tristanlukens | home</title>
+	<title>tristanlukens | Home</title>
 	<meta
 		name="description"
 		content="Homepage of Tristan Lukens' personal website."

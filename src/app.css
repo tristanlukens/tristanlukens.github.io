@@ -22,6 +22,10 @@
 	.page {
 		@apply p-8 flex flex-col justify-center items-center;
 	}
+
+	.card-list {
+		@apply space-y-8 w-4/5 max-w-sm;
+	}
 }
 
 @layer utilities {

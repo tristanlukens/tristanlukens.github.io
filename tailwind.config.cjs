@@ -6,7 +6,7 @@ const config = {
 	theme: {
 		extend: {
 			colors: {
-				theme: colors.sky,
+				theme: colors.emerald,
 			},
 		},
 	},

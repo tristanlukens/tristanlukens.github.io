@@ -6,10 +6,26 @@
 	.link {
 		@apply text-theme-500 text-sm uppercase tracking-widest font-bold hover:text-theme-600;
 	}
+
+	.title {
+		@apply font-bold text-4xl md:text-5xl lg:text-6xl mb-8;
+
+		& span {
+			@apply text-theme-400;
+		}
+	}
+
+	.horizontal-break {
+		@apply w-full my-12;
+	}
+
+	.page {
+		@apply p-8 flex flex-col justify-center items-center;
+	}
 }
 
 @layer utilities {
-	.height-normal {
+	.h-normal {
 		height: calc(100vh - theme("spacing.14"));
 	}
 }

@@ -2,7 +2,7 @@
 	<title>tristanlukens | Home</title>
 	<meta
 		name="description"
-		content="Homepage of Tristan Lukens' personal website."
+		content="Home page of Tristan Lukens' personal website."
 	/>
 </svelte:head>
 

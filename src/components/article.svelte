@@ -7,9 +7,9 @@
 </script>
 
 <article>
-	<!-- !leading-loose because prose overrides it -->
+	<!-- !leading-loose and !text-theme-500 because prose overrides them -->
 	<div
-		class="prose prose-sm sm:prose md:prose-lg prose-a:text-theme-500 !leading-loose text-justify"
+		class="prose prose-sm sm:prose md:prose-lg prose-a:!text-theme-500 !leading-loose text-justify"
 	>
 		<SvelteMarkdown {source} />
 	</div>

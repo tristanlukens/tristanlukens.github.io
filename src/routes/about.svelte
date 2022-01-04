@@ -52,10 +52,20 @@ I now use Svelte, TailwindCSS and TypeScript on a daily basis.
 On another note: I'm a drummer! I love music and cannot go without. Mostly
 rock and metal, but hip hop and the occasional edm is pretty cool too.
 
-## Second version
+## About this website
 
-By the way, this is the second version of this site. The first is still on
+This site was made with Svelte, SvelteKit, TailwindCSS and TypeScript.
+
+This is the second version of this site. The first is still on
 GitHub, at https://github.com/tristanlukens/old-website if that's not private.
+
+Keep in mind that when I was creating this website, I wanted it to look
+good on screen sizes as small as the iPhone 5, horizontal and vertical.
+
+The website was also tested on Chrome, Firefox and Safari, all on mobile and on desktop, their
+versions being the most recent stable releases of each on the 4th of January, 2022.
+
+Other devices and browsers **were not tested**.
 
 ---
 

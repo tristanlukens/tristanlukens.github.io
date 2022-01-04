@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-	.link {
+	.nav-item {
 		@apply text-theme-500 text-sm uppercase tracking-widest font-bold hover:text-theme-600;
 	}
 

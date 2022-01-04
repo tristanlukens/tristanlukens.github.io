@@ -7,7 +7,10 @@
 </script>
 
 <article>
-	<div class="prose prose-a:text-theme-500 text-justify">
+	<!-- !leading-loose because prose overrides it -->
+	<div
+		class="prose prose-sm sm:prose md:prose-lg prose-a:text-theme-500 !leading-loose text-justify"
+	>
 		<SvelteMarkdown {source} />
 	</div>
 	<hr class="horizontal-break" />

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <main
-	class="grid height-normal grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 place-items-center text-center p-8"
+	class="grid h-normal grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 place-items-center text-center p-8"
 >
 	<div class="row-span-1">
 		<h1 class="font-bold text-4xl md:text-5xl lg:text-6xl">

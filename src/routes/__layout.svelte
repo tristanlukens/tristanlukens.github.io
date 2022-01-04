@@ -8,7 +8,7 @@
 	<Header />
 </header>
 
-<!-- mt-12 because 12 is the size of the header -->
-<section class="mt-12">
+<!-- mt-14 because 14 is the size of the header -->
+<section class="mt-14">
 	<slot />
 </section>

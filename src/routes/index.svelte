@@ -1,3 +1,11 @@
+<svelte:head>
+	<title>tristanlukens | home</title>
+	<meta
+		name="description"
+		content="Homepage of Tristan Lukens' personal website."
+	/>
+</svelte:head>
+
 <main
 	class="grid height-normal grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 place-items-center text-center p-8"
 >

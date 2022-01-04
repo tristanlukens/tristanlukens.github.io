@@ -2,7 +2,7 @@
 	export let title;
 	export let date;
 
-	const link = `/post/${title.split(" ").join("-").toLowerCase()}`;
+	const link = `/blog/post/${title.split(" ").join("-").toLowerCase()}`;
 </script>
 
 <a

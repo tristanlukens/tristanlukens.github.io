@@ -14,6 +14,7 @@ a year at the time of writing; I started in November 2020.
 ---
 
 ## Development story
+
 It's been a long time. I started programming in 2017 (I think, could be 2018) 
 with Swift Playgrounds on my iPad mini. I did not have a computer at the time. When I did get one, 
 (a 2011 iMac), I went to Xcode and started to learn iOS app development. Xcode was an absolute 

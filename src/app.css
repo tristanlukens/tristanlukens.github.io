@@ -4,7 +4,7 @@
 
 @layer components {
 	.link {
-		@apply text-theme-500 text-sm uppercase tracking-widest font-bold;
+		@apply text-theme-500 text-sm uppercase tracking-widest font-bold hover:text-theme-600;
 	}
 }
 

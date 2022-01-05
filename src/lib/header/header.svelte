@@ -12,6 +12,7 @@
 	class="border-b-2 border-gray-100 flex justify-around items-center h-14"
 >
 	<a href="/">
+		<!-- not title component becuause it's smaller and it needs to be an h2 -->
 		<h2 class="text-3xl font-bold">
 			tristan<span class="text-theme-400">lukens</span>
 		</h2>

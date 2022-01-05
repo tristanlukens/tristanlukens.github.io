@@ -1,3 +1,7 @@
+<script>
+	import Title from "$lib/title.svelte";
+</script>
+
 <svelte:head>
 	<title>tristanlukens | Settings</title>
 	<meta
@@ -7,7 +11,7 @@
 </svelte:head>
 
 <main class="page">
-	<h1 class="title">coming<span>soon</span></h1>
+	<Title first="coming" second="soon" />
 	<div class="prose">
 		<p>The settings page is not done yet, but it will be soon.</p>
 		<hr />

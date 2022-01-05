@@ -1,3 +1,7 @@
+<script>
+	import Title from "$lib/title.svelte";
+</script>
+
 <svelte:head>
 	<title>tristanlukens | Home</title>
 	<meta
@@ -10,9 +14,7 @@
 	class="grid h-normal grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 place-items-center text-center p-8"
 >
 	<div class="row-span-1">
-		<h1 class="font-bold text-4xl md:text-5xl lg:text-6xl">
-			tristan<span class="text-theme-400">lukens</span>
-		</h1>
+		<Title first="tristan" second="lukens" />
 		<p class="mt-4 text-lg">Welcome.</p>
 	</div>
 	<div class="max-w-[30ch] md:max-w-[40ch] row-span-2">

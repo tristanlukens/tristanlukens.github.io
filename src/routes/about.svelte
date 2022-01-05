@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Title from "$lib/title.svelte";
 	import Article from "$lib/article.svelte";
 
 	const data = {
@@ -85,7 +86,7 @@ I could talk about lots and lots more, but the rest will come with blog posts :)
 </svelte:head>
 
 <main class="page">
-	<h1 class="title">about<span>me</span></h1>
+	<Title first="about" second="me" />
 	<!-- 8 because the main.page (which is in the Article component) has 8 padding -->
 	<div class="-mt-8">
 		<Article {...data} />

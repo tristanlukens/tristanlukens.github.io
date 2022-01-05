@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Title from "$lib/title.svelte";
 	import Card from "$lib/card.svelte";
 
 	import { articles } from "../stores.js";
@@ -13,7 +14,7 @@
 </svelte:head>
 
 <main class="page">
-	<h1 class="title">blog</h1>
+	<Title first="blog" />
 	<p class="text-center">I like tech. I write about it here.</p>
 	<p class="mt-4 mb-8 text-xs text-center">
 		But don't be afraid to see articles about other subjects.

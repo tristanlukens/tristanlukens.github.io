@@ -1,10 +1,11 @@
 <script>
+	import Title from "$lib/title.svelte";
 	import Card from "$lib/card.svelte";
 	import { articles } from "$lib/../stores";
 </script>
 
 <main class="page">
-	<h1 class="title">all<span>posts</span></h1>
+	<Title first="all" second="posts" />
 	<div class="card-list">
 		{#each $articles as article}
 			<Card {...article} />

@@ -1,7 +1,7 @@
 <script>
 	import "../app.css";
 
-	import Header from "../components/header.svelte";
+	import Header from "$lib/header/header.svelte";
 </script>
 
 <header class="fixed top-0 left-0 right-0 bg-white">

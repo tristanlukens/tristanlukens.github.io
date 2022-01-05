@@ -2,7 +2,7 @@
 	import Menu from "./menu.svelte";
 	import Nav from "./nav.svelte";
 
-	import { menuOpen } from "../stores.js";
+	import { menuOpen } from "../../stores.js";
 	const toggleMenu = () => {
 		$menuOpen = !$menuOpen;
 	};

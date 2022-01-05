@@ -21,6 +21,6 @@
 	>
 		<SvelteMarkdown {source} />
 	</div>
-	<hr class="horizontal-break max-w-prose" />
+	<hr class="horizontal-break card-list" />
 	<p class="text-sm italic">Written by {author} on {date}.</p>
 </main>

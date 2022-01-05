@@ -28,6 +28,6 @@
 		{/each}
 	</section>
 	<!-- same width as section above -->
-	<hr class="horizontal-break max-w-sm" />
+	<hr class="horizontal-break card-list" />
 	<a href="/blog/posts" class="nav-item">all articles</a>
 </main>

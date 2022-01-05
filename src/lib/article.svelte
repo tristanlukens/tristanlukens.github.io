@@ -7,8 +7,9 @@
 </script>
 
 <main class="page">
+	<!-- spacing.72 because the prose size is (coincedentally?) (about?) the same width -->
 	<div
-		class="prose prose-sm prose-headings:text-center text-justify sm:prose-base"
+		class="prose prose-sm prose-a:text-theme-500 prose-headings:text-center text-justify prose-pre:max-w-[theme(spacing.72)] sm:prose-pre:max-w-none prose-pre:mx-auto"
 	>
 		<SvelteMarkdown {source} />
 	</div>

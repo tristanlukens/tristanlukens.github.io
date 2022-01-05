@@ -1,6 +1,9 @@
 <script lang="ts">
 	import SvelteMarkdown from "svelte-markdown";
 
+	// I use this article component for the about page as well
+	export let aboutme: boolean = false;
+
 	export let source: string;
 	export let author: string;
 	export let date: string; // date in dd-mm-yyyy format
@@ -15,4 +18,8 @@
 	</div>
 	<hr class="horizontal-break card-list" />
 	<p class="text-sm italic">Written by {author} on {date}.</p>
+	<hr class="horizontal-break card-list" />
+	{#if !aboutme}
+		<a href="/blog" class="nav-item">back to recent posts</a>
+	{/if}
 </main>

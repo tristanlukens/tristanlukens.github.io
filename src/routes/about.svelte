@@ -62,7 +62,7 @@ Keep in mind that when I was creating this website, I wanted it to look
 good on screen sizes as small as the iPhone 5, horizontal and vertical.
 
 The website was also tested on Chrome, Firefox and Safari, all on mobile and on desktop, their
-versions being the most recent stable releases of each on the 4th of January, 2022.
+versions being the most recent stable releases of each on the 5th of January, 2022.
 
 Other devices and browsers **were not tested**.
 

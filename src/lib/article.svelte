@@ -18,8 +18,8 @@
 	</div>
 	<hr class="horizontal-break card-list" />
 	<p class="text-sm italic">Written by {author} on {date}.</p>
-	<hr class="horizontal-break card-list" />
 	{#if !aboutme}
+		<hr class="horizontal-break card-list" />
 		<a href="/blog" class="nav-item">back to recent posts</a>
 	{/if}
 </main>

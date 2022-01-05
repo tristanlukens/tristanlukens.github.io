@@ -2,6 +2,7 @@
 	import Article from "$lib/article.svelte";
 
 	const data = {
+		title: undefined,
 		source: `
 Hi! I'm Tristan, 15 years old and live in the Netherlands (and was also born there).
 
@@ -85,5 +86,8 @@ I could talk about lots and lots more, but the rest will come with blog posts :)
 
 <main class="page">
 	<h1 class="title">about<span>me</span></h1>
-	<Article {...data} />
+	<!-- 8 because the main.page (which is in the Article component) has 8 padding -->
+	<div class="-mt-8">
+		<Article {...data} />
+	</div>
 </main>

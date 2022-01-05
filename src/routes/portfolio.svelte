@@ -1,7 +1,5 @@
-<svelte:head>
-	<title>tristanlukens | Portfolio</title>
-	<meta
-		name="description"
-		content="Portfolio of Tristan Lukens' personal website."
-	/>
-</svelte:head>
+<script>
+	import Comingsoon from "$lib/comingsoon.svelte";
+</script>
+
+<Comingsoon message="The portfolio page is not done yet." />

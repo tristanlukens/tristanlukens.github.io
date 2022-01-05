@@ -12,6 +12,6 @@
 	</div>
 	<hr class="horizontal-break max-w-sm" />
 	<a href="/blog" class="nav-item leading-loose text-center"
-		>back to recommended posts</a
+		>back to recent articles</a
 	>
 </main>

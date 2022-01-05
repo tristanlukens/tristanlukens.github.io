@@ -18,13 +18,16 @@
 	<p class="mt-4 mb-8 text-xs text-center">
 		But don't be afraid to see articles about other subjects.
 	</p>
-	<h3 class="mb-6 font-bold text-xl">Recommended articles</h3>
+	<h3 class="mb-6 font-bold text-xl">Recent articles</h3>
 	<section class="card-list">
-		{#each $articles as article}
-			<Card {...article} />
+		{#each $articles as article, i}
+			<!-- only 5 recent articles -->
+			{#if i <= 4}
+				<Card {...article} />
+			{/if}
 		{/each}
 	</section>
 	<!-- same width as section above -->
 	<hr class="horizontal-break max-w-sm" />
-	<a href="/blog/posts" class="nav-item">all posts</a>
+	<a href="/blog/posts" class="nav-item">all articles</a>
 </main>

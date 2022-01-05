@@ -10,6 +10,7 @@ Also using the SvelteMarkdown package and the Typography plugin for Tailwind.
 -   redo the blog (and portfolio in the future) to use a cms, and api and slugs
 -   create the portfolio page
 -   create the settings page
+-   add a nice 404 page
 
 ### Bugs
 

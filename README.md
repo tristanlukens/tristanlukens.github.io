@@ -11,6 +11,7 @@ Also using the SvelteMarkdown package and the Typography plugin for Tailwind.
 -   create the portfolio page
 -   create the settings page
 -   add a nice 404 page
+-   an article h1 should follow the title trend
 
 ### Bugs
 

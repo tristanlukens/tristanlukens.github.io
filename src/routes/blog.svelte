@@ -15,8 +15,8 @@
 
 <main class="page">
 	<Title first="blog" />
-	<p class="text-center">I like tech. I write about it here.</p>
-	<p class="mt-4 mb-8 text-xs text-center">
+	<p>I like tech. I write about it here.</p>
+	<p class="mt-4 mb-8 text-xs leading-loose">
 		But don't be afraid to see articles about other subjects.
 	</p>
 	<h3 class="mb-6 font-bold text-xl">Recent articles</h3>

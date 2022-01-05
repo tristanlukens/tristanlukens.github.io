@@ -16,6 +16,8 @@
 <main class="page">
 	<Title first="coming" second="soon" />
 	{#if message != undefined}
-		<p>{message}</p>
+		<div class="text-center leading-loose">
+			<p>{message}</p>
+		</div>
 	{/if}
 </main>

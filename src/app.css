@@ -12,11 +12,11 @@
 	}
 
 	.page {
-		@apply p-8 flex flex-col justify-center items-center;
+		@apply p-8 flex flex-col justify-center items-center text-center;
 	}
 
 	.card-list {
-		@apply space-y-8 w-4/5 max-w-sm;
+		@apply space-y-8 w-4/5 max-w-sm text-left;
 	}
 }
 

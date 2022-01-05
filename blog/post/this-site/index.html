@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>tristanlukens | This site</title><meta name="description" content="The 'This site' blog post by Tristan Lukens." data-svelte="svelte-ocxzio">
+
+		
+
+		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-5c2d45a6.css">
+		<link rel="modulepreload" href="/_app/start-f2504e87.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-f28c4b56.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-5f00300c.js">
+		<link rel="modulepreload" href="/_app/chunks/stores-8f18d8a2.js">
+		<link rel="modulepreload" href="/_app/pages/blog/post/this-site.svelte-02e203e2.js">
+		<link rel="modulepreload" href="/_app/chunks/article-4ba6f5ad.js">
+
+		<script type="module">
+			import { start } from "/_app/start-f2504e87.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-5f00300c.js"),
+						import("/_app/pages/blog/post/this-site.svelte-02e203e2.js")
+					],
+					url: new URL("http://prerender/blog/post/this-site"),
+					params: {}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="fixed top-0 left-0 right-0 bg-white"><header class="border-b-2 border-gray-100 flex justify-around items-center h-14"><a href="/">
+		<h2 class="text-3xl font-bold">tristan<span class="text-theme-400">lukens</span></h2></a>
+
+	<div class="sm:hidden">
+		<svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
+
+	<div class="hidden sm:block"><nav><ul class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 justify-center sm:space-between"><li><a class="nav-item" href="/about">about</a>
+			</li><li><a class="nav-item" href="/blog">blog</a>
+			</li><li><a class="nav-item" href="/portfolio">portfolio</a>
+			</li><li><a class="nav-item" href="/settings">settings</a>
+			</li></ul></nav></div>
+
+	</header></header>
+
+
+<section class="mt-14">
+
+<main class="page">
+	<div class="prose prose-sm prose-a:text-theme-500 prose-headings:text-center text-justify prose-pre:max-w-[theme(spacing.72)] sm:prose-pre:max-w-none prose-pre:mx-auto"><h1 id="this-site">This site</h1><p>Let&#39;s talk about this site for a bit.</p><p>It was made using <a href="https://svelte.dev">Svelte</a>, Svelte&#39;s in-house router <a href="https://kit.svelte.dev">SvelteKit</a>, <a href="https://tailwindcss.com">TailwindCSS</a> and its
+<a href="https://tailwindcss.com/docs/typography-plugin">Typography</a> plugin and <a href="https://www.npmjs.com/package/svelte-markdown">SvelteMarkdown</a>, a <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> &quot;converter&quot; for Svelte.
+I&#39;m using GitHub Pages to host the site, and as of the time of writing, just including articles in the
+standard repo. Where I want to go however, is using either a CMS like Graph CMS or Ghost CMS, or just
+another GitHub repo with the files. I would then use a slug in SvelteKit, but I&#39;m simply not experienced
+enough with APIs and async JS.</p><h2 id="svelte">Svelte</h2><p>Svelte is awesome. Just writing blocks of HTML, CSS and JavaScript (or HTML + TailwindCSS classes and TypeScript in this site&#39;s case)
+is very natural. React and Vue are more convoluted, and I&#39;m not ready for them yet. I&#39;ve been doing a lot
+with web development for a while now, but barely know anything when it comes to async and other intermediate
+level JavaScript concepts.</p><h3 id="sveltekit">SvelteKit</h3><p>SvelteKit is Sapper&#39;s successor. They&#39;re both pretty simple routers for Svelte. It uses Vite under the hood
+and makes the development expierence incredibly quick and nice.</p><h3 id="sveltemarkdown">SvelteMarkdown</h3><p>A markdown compiler for Svelte. It does what the name suggests: you give it a markdown source string,
+and it compiles it to HTML and does this with a Svelte component. Example:</p><pre><code>&lt;script&gt;
+    import SvelteMarkdown from &quot;svelte-markdown&quot;
+
+    const source = &quot;# This is a title! This article is about the title.&quot;
+&lt;/script&gt;
+
+&lt;section class=&quot;prose&quot;&gt;
+    &lt;SvelteMarkdown {source} /&gt;
+&lt;/section&gt;</code></pre><h2 id="tailwindcss">TailwindCSS</h2><p>You simply cannot talk about quick and nice developer experience without name-dropping Tailwind; I don&#39;t know
+how I could stand writing websites with CSS before. Even with SASS, CSS is a nightmare. Powerful yet simple, yes, but
+once Tailwind&#39;s got ya hooked, you cannot go back.</p><p>Since I&#39;m 15 and this schoolyear&#39;s my first year of being in computer sience class, I get to help people making
+websites for the first time. That&#39;s lovely, but actually writing CSS again is &quot;even wennen&quot; as we say
+here in the Netherlands (which means that it took a while to get used to).</p><h3 id="typography-plugin">Typography plugin</h3><p>Besides vanilla Tailwind, I&#39;m using the Typography plugin. This means I have access to <code>prose</code> classes.
+These deliver sane defaults for HTML blocks. It might look like this for example (with using SvelteMarkdown):</p><pre><code>&lt;script&gt;
+    import SvelteMarkdown from &quot;svelte-markdown&quot;
+
+    const source = &quot;# This is a title!&quot;
+&lt;/script&gt;
+
+&lt;section class=&quot;prose prose-sm prose-a:text-emerald-500&quot;&gt;
+    &lt;SvelteMarkdown {source} /&gt;
+&lt;/section&gt;</code></pre><h2 id="markdown">Markdown</h2><p>Markdown is rather simple: it&#39;s plain text with some symbols for markup. For instance,
+you make some text a heading by putting a <code>#</code> in front of it, or make a list using
+<code>-</code> for all the elements, like this (but you can do more than this!):</p><pre><code># A markdown example
+
+This is some **markdown**.
+
+You can do a lot with it!
+
+- ordered and unordered lists
+- **bold text**
+- *italic text*
+- headings with #
+- hr elements with ---
+- [hyperlinks](https://tristanlukens.github.io)
+- ![images](https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1120&amp;q=80)
+
+Pretty cool right?
+
+## Readability
+
+You don&#39;t need a markdown processor for the text to be readable, which
+is where markdown really shines. This is perfectly readable!</code></pre><p>I&#39;m planning to do a whole article on markdown one day!</p><h2 id="github-pages">GitHub Pages</h2><p>GitHub Pages is a service which you can use to host a website for free #notsponsored.
+I&#39;m building my SvelteKit app and pushing it to GitHub (like how <a href="https://blog.stranianelli.com/sveltekit-et-github-pages-english/">this</a> article says)
+and it&#39;s pretty much flawless.</p><h2 id="the-future-of-this-website">The future of this website</h2><p>This might be the second version, but it will definately not be the last iteration. I&#39;m still
+not using slugs and want to fully understand Svelte and JS before I try again, but
+I&#39;m pretty happy with how I did things this time around.</p><h3 id="how-im-doing-things-now-and-how-i-want-to-do-things">How I&#39;m doing things now and how I want to do things</h3><p>As you can see on <a href="https://github.com/tristanlukens/tristanlukens.github.io">GitHub</a> I now have a Svelte Store with an array of objects
+with data about blog articles, but everytime I&#39;m writing a new one I&#39;m create a new object in the array and creating a new
+page with Article component in <code>src/routes/blog/post/</code> which is an inefficient way of doing things. I want to use [slugs], which have
+to do with dynamic routing. I took a good look at the SvelteKit docs about dynamic routing and came to the conclusion I just need
+to stick to how I was doing things before for now :)</p><hr><p>Thank you for reading!</p><p>I just decided I&#39;m going to put an emoji of the article at the bottom of every one from now on, so see if you can collect &#39;em all.</p><p>Happy new year btw.</p><p>🥰
+    </p></div>
+	<hr class="horizontal-break card-list">
+	<p class="text-sm italic">Written by Tristan Lukens on 05-01-2022.</p></main></section>
+
+</div>
+	</body>
+</html>

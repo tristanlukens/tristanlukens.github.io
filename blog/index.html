@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>tristanlukens | Home</title><meta name="description" content="Home page of Tristan Lukens' personal website." data-svelte="svelte-1vy911e">
+		<title>tristanlukens | Blog</title><meta name="description" content="Blog page of Tristan Lukens' personal website." data-svelte="svelte-176pn1u">
 
 		
 
@@ -14,8 +14,9 @@
 		<link rel="modulepreload" href="/_app/chunks/vendor-f28c4b56.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-5f00300c.js">
 		<link rel="modulepreload" href="/_app/chunks/stores-8f18d8a2.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-e9dbc302.js">
+		<link rel="modulepreload" href="/_app/pages/blog.svelte-0b719217.js">
 		<link rel="modulepreload" href="/_app/chunks/title-53d80759.js">
+		<link rel="modulepreload" href="/_app/chunks/card-e658d81d.js">
 
 		<script type="module">
 			import { start } from "/_app/start-f2504e87.js";
@@ -31,9 +32,9 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-5f00300c.js"),
-						import("/_app/pages/index.svelte-e9dbc302.js")
+						import("/_app/pages/blog.svelte-0b719217.js")
 					],
-					url: new URL("http://prerender/"),
+					url: new URL("http://prerender/blog"),
 					params: {}
 				}
 			});
@@ -60,11 +61,19 @@
 
 <section class="mt-14">
 
-<main class="grid h-normal grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 place-items-center text-center p-8"><div class="row-span-1"><h1 class="font-bold text-4xl md:text-5xl lg:text-6xl mb-8">tristan<span class="text-theme-400">lukens</span></h1>
-		<p class="mt-4 text-lg">Welcome.</p></div>
-	<div class="max-w-[30ch] md:max-w-[40ch] row-span-2"><p class="text-sm sm:text-base md:text-lg md:text-right !leading-loose">I&#39;m <span class="font-bold">Tristan</span>! You&#39;re on my personal
-			site. There&#39;s not a lot to do here, but for now, have a nice stay.
-		</p></div></main></section>
+<main class="page"><h1 class="font-bold text-4xl md:text-5xl lg:text-6xl mb-8">blog</h1>
+	<p class="text-center">I like tech. I write about it here.</p>
+	<p class="mt-4 mb-8 text-xs text-center">But don&#39;t be afraid to see articles about other subjects.
+	</p>
+	<h3 class="mb-6 font-bold text-xl">Recent articles</h3>
+	<section class="card-list">
+			<a class="px-8 py-4 bg-gradient-to-tr from-theme-600 to-theme-400 space-y-2 rounded-lg shadow-xl hover:-translate-y-1 hover:opacity-90 transition cursor-pointer block" href="/blog/post/this-site"><h3 class="text-lg text-white font-bold">This site</h3>
+	<p class="text-sm text-white italic">05-01-2022</p></a>
+			<a class="px-8 py-4 bg-gradient-to-tr from-theme-600 to-theme-400 space-y-2 rounded-lg shadow-xl hover:-translate-y-1 hover:opacity-90 transition cursor-pointer block" href="/blog/post/ideas-for-articles"><h3 class="text-lg text-white font-bold">Ideas for articles</h3>
+	<p class="text-sm text-white italic">05-01-2022</p></a></section>
+	
+	<hr class="horizontal-break card-list">
+	<a href="/blog/posts" class="nav-item">all articles</a></main></section>
 
 </div>
 	</body>

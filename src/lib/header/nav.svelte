@@ -10,7 +10,7 @@
 
 <nav>
 	<ul
-		class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 justify-center sm:space-between"
+		class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 justify-center sm:space-between"
 	>
 		{#each navItems as item}
 			<li>

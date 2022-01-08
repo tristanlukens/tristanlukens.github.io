@@ -19,9 +19,9 @@ a year at the time of writing; I started in November 2020.
 It's been a long time. I started programming in 2017 (I think, could be 2018) 
 with Swift Playgrounds on my iPad mini. I did not have a computer at the time. When I did get one, 
 (a 2011 iMac), I went to Xcode and started to learn iOS app development. Xcode was an absolute 
-disaster back then: it was slow, buggy and genuinly unfun to use. Even when I got my 2021 Mac mini. I quit, 
+disaster back then: it was slow, buggy and genuinely unfun to use. Even when I got my 2021 Mac mini. I quit, 
 and bought a Unity game development course on Udemy in 2019. I should have known however,
-that a computer with a 2012 integrated GPU wouldn't cut it. It was too slow. Duh.
+that a computer with a 2012 integrated GPU wouldn't cut it. It was too slow.
 
 I stopped for a while, but picked up iOS app development again in May(?) of 2020. Still didn't work, moved on
 to Python. Which I couldn't get working: there's two commands: \`python\` and \`python3\`. You
@@ -37,7 +37,7 @@ programming language (Swift)). Sue me. I dare you.
 
 Around about November 2020 I stumbled upon [this](https://www.youtube.com/watch?v=vQWlgd7hV4A&t=8993s) video.
 This did work! HTML is just a little bit of text after all. No compiling
-or installation involved. Just VS Code, which was a rather simple \`brew install visual-studio-code
+or installation involved. Just VS Code, which was a rather simple \`brew install visual-studio-code\`
 because I had played with the terminal before. Besides, I had tinkered with Linux already (and completely
 screwed a system, but that's a story for another blog post).
 

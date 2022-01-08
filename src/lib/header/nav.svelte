@@ -14,9 +14,7 @@
 	>
 		{#each navItems as item}
 			<li>
-				<a on:click={toggleMenu} class="nav-item" href="/{item}"
-					>{item}</a
-				>
+				<a on:click={toggleMenu} class="nav-item" href="/{item}">{item}</a>
 			</li>
 		{/each}
 	</ul>

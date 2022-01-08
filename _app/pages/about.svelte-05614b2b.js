@@ -25,14 +25,14 @@ release) uses \`bash\`. Well, you probably know where this is going. I wanted to
 \`zsh\` in \`$HOME/bash_profile\`. When I eventually figured out how to set the alias, I didn't
 restart my shell when I set the alias. Yeah.
 
-I'm not that bummed about not learning Python though. I hate Python nowadays for it's syntax (WHY TABS AND NOT
+I'm not that bummed about not learning Python though. I hate Python nowadays for its syntax (WHY TABS AND NOT
 NOT CURLY BRACKETS) and the fact that it's interpreted. I guess I'm more old school (and I started with a sane
 programming language (Swift)). Sue me. I dare you.
 
 Around about November 2020 I stumbled upon [this](https://www.youtube.com/watch?v=vQWlgd7hV4A&t=8993s) video.
 This did work! HTML is just a little bit of text after all. No compiling
-or installation involved. Just VS Code, which was a rather simple \`brew install visual-studio-code\`
-becuase I had played with the terminal before. Besides, I had tinkered with Linux already (and completely
+or installation involved. Just VS Code, which was a rather simple \`brew install visual-studio-code
+because I had played with the terminal before. Besides, I had tinkered with Linux already (and completely
 screwed a system, but that's a story for another blog post).
 
 When I finished Dev Ed's video, I activated a free trial for Skillshare and

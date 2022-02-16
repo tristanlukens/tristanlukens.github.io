@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>tristanlukens | An introduction to JavaScript - the setup</title><meta name="description" content="The 'An introduction to JavaScript - the setup' blog post by Tristan Lukens." data-svelte="svelte-ocxzio">
+
+		
+
+		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-b840178b.css">
+		<link rel="modulepreload" href="/_app/start-5c60426b.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-f28c4b56.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-0c092ed0.js">
+		<link rel="modulepreload" href="/_app/chunks/stores-40fd3bd9.js">
+		<link rel="modulepreload" href="/_app/pages/blog/post/an-introduction-to-javascript---the-setup.svelte-e6978cea.js">
+		<link rel="modulepreload" href="/_app/chunks/article-94fdd433.js">
+
+		<script type="module">
+			import { start } from "/_app/start-5c60426b.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-0c092ed0.js"),
+						import("/_app/pages/blog/post/an-introduction-to-javascript---the-setup.svelte-e6978cea.js")
+					],
+					url: new URL("http://prerender/blog/post/an-introduction-to-javascript---the-setup"),
+					params: {}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="fixed top-0 left-0 right-0 bg-white"><header class="border-b-2 border-gray-100 flex justify-around items-center h-14"><a href="/">
+		<h2 class="text-3xl font-bold">tristan<span class="text-theme-400">lukens</span></h2></a>
+
+	<div class="sm:hidden">
+		<svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
+
+	<div class="hidden sm:block"><nav><ul class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 justify-center sm:space-between"><li><a class="nav-item" href="/about">about</a>
+			</li><li><a class="nav-item" href="/blog">blog</a>
+			</li><li><a class="nav-item" href="/portfolio">portfolio</a>
+			</li><li><a class="nav-item" href="/settings">settings</a>
+			</li></ul></nav></div>
+
+	</header></header>
+
+
+<section class="mt-14">
+
+<main class="page">
+	<div class="prose prose-sm prose-a:text-theme-500 prose-headings:text-center text-justify prose-pre:max-w-[theme(spacing.72)] sm:prose-pre:max-w-none prose-pre:mx-auto"><h1 id="an-introduction-to-javascript---the-setup">An introduction to JavaScript - the setup</h1><p>This is the first part of the JavaScript introductory tutorial: the setup part.</p><p>We&#39;re going to set up Visual Studio Code and a couple of extensions. As a bonus, I&#39;ll go over installing <code>node.js</code>.</p><p>You don&#39;t need any prior programming knowledge to follow this tutorial, but knowing how to use a computer is pretty handy.</p><h2 id="visual-studio-code">Visual Studio Code</h2><h3 id="installation">Installation</h3><p>Go to <a href="https://code.visualstudio.com">https://code.visualstudio.com</a> and click on the download link. <strong>This is a trusted program, made by Microsoft. Not a virus.
+<a href="https://code.visualstudio.com/docs/getstarted/telemetry">There is some telemetry enabled</a>, which you can turn off.</strong></p><p>There is another program called Visual Studio, which you don&#39;t want. This is a full-blown IDE, made for coding in C#. C# and
+JavaScript aren&#39;t interchangable; they&#39;re seperate programming languages.</p><p>I will talk more about that in the article about JavaScript&#39;s fundamentals, before which I&#39;ll talk about the concept of a
+programming language. This is only a setup guide.</p><h3 id="extensions">Extensions</h3><p>VSCode works with so-called extensions. These provide extra features etc, to make the editor better. You can install them in various
+ways, the easiest being the in-app marketplace. You can access it by clicking on its tab icon, in the sidebar.</p><p><img src="/extensions-tab.png" alt=""></p><p><em>Screenshot showing where the extensions tab is.</em></p><p>If you open this, you&#39;ll see a search bar. Search for and install the following extensions, and meet me back here. We&#39;ll talk about these later.</p><ul><li>Live Server
+            </li><li>HTMLHint
+            </li><li>Prettier
+            </li></ul><hr><p><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> is used for hosting your web page, on your <a href="https://en.wikipedia.org/wiki/Localhost">loopback address</a> (local ip address of your
+computer that cannot be accessed from anywhere but your computer). It has live reload, which means that if
+something in one of your files changes, the page will reload. You won&#39;t have to click the button anymore.</p><p><a href="https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint">HTMLHint</a> is error checking for HTML. If something is typed wrong, it&#39;ll tell you what went wrong and where.</p><p><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a> is for formatting your code. Not every language is supported, but the ones for web development are (HTML, CSS, JS, JSON, PHP and others).</p><h3 id="extension-setup">Extension setup</h3><p>HTMLHint and Live Server work out of the box, but Prettier requires some setup.</p><ul><li>open settings, by clicking <strong>⌘ + ,</strong> on macOS, <strong>Ctrl + ,</strong> on Windows and Linux
+            </li><li>search for &quot;default formatter&quot;
+            </li><li>select &quot;Prettier - Code Formatter&quot;
+            </li></ul><p>This should label Prettier as the leading code formatter, so it will format all supported file types. You can find a list of those
+in the Marketplace link I hyperlinked above.</p><h2 id="bonus---installing-node">Bonus - installing Node</h2><p><code>node.js</code> is a browser alternative for running JavaScript code. It&#39;s built on Chrome&#39;s V8 core engine, and is mostly used with servers.
+With node comes <code>npm</code>, which is the node package manager. There&#39;s thousands of packages in the repositories of npm, <a href="https://www.npmjs.com">https://www.npmjs.com</a>.</p><p>This is a little bit more advanced, and definately not a necessary step. If you want to proceed using JavaScript and want to become
+a good dev, install node. Otherwise (or if you&#39;re not tech savvy enough), just move on to the tutorial blog post.
+    </p></div>
+	<hr class="horizontal-break card-list">
+	<p class="text-sm italic">Written by Tristan Lukens on 03-02-2022.</p>
+	<hr class="horizontal-break card-list">
+		<a href="/blog" class="nav-item">back to recent posts</a></main></section>
+
+</div>
+	</body>
+</html>

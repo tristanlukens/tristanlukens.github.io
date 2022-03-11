@@ -8,7 +8,7 @@ Also using the SvelteMarkdown package and the Typography plugin for Tailwind.
 
 **March 11th**
 
-My old website's url (https://tristanlukens.github.io] now redirects to my [new website](https://tristanlukens.vercel.app).
+My old website's url (https://tristanlukens.github.io) now redirects to my [new website](https://tristanlukens.vercel.app).
 
 ---
 

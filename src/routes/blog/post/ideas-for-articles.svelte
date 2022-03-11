@@ -2,7 +2,7 @@
 	import Article from "$lib/article.svelte";
 	import { articles } from "$lib/../stores.js";
 
-	const data = $articles[1];
+	const data = $articles[2];
 </script>
 
 <svelte:head>

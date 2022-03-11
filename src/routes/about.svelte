@@ -16,10 +16,9 @@ a year at the time of writing; I started in November 2020.
 
 ## Development story
 
-It's been a long time. I started programming in 2017 (I think, could be 2018) 
-with Swift Playgrounds on my iPad mini. I did not have a computer at the time. When I did get one, 
+It's been a long time. I started programming in 2018 with Swift Playgrounds on my iPad mini. I did not have a computer at the time. When I did get one, 
 (a 2011 iMac), I went to Xcode and started to learn iOS app development. Xcode was an absolute 
-disaster back then: it was slow, buggy and genuinely unfun to use. Even when I got my 2021 Mac mini. I quit, 
+disaster back then: it was slow, buggy and genuinely unfun to use. Even when I got my 2012 Mac mini. I quit, 
 and bought a Unity game development course on Udemy in 2019. I should have known however,
 that a computer with a 2012 integrated GPU wouldn't cut it. It was too slow.
 
@@ -39,14 +38,18 @@ Around about November 2020 I stumbled upon [this](https://www.youtube.com/watch?
 This did work! HTML is just a little bit of text after all. No compiling
 or installation involved. Just VS Code, which was a rather simple \`brew install visual-studio-code\`
 because I had played with the terminal before. Besides, I had tinkered with Linux already (and completely
-screwed a system, but that's a story for another blog post).
+screwed a system (well, two, actually)), but that's a story for another blog post).
 
 When I finished Dev Ed's video, I activated a free trial for Skillshare and
 my parents bought a year-long subscription after it expired.
 
-In summer 2020, I started the Go tutorial by Tech with Tim.
+In summer 2021, I started the Go tutorial by Tech with Tim.
 
-I now use Svelte, TailwindCSS and TypeScript on a daily basis.
+I now use Svelte, TailwindCSS and TypeScript on a daily basis. At the time of writing this very sentence (the 16th
+of Febuary, 2022 because of small mistakes) I'm working on a markdown lexer. The plan is to make a markdown -> html
+transpiler, but the code I have at the moment is very messy so we'll have to see if I'll ever get to the
+transpliler step. The thing's writting with vanilla HTML and TailwindCSS, and with vanilla JS. I wanted to try this
+for seeing how good TS actually is compared to vanilla, but I might go back to TS in the future.
 
 ## Music
 

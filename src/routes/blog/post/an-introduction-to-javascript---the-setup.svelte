@@ -1,8 +1,8 @@
 <script>
 	import Article from "$lib/article.svelte";
-	import { articles } from "$lib/../stores.js";
+	import { articles } from "$lib/../stores";
 
-	const data = $articles[1];
+	const data = $articles[0];
 </script>
 
 <svelte:head>
